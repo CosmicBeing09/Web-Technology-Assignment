@@ -117,9 +117,7 @@ class Edit_Post extends Component {
                         console.log('Focus.', editor);
                     }}
                 />
-                {/* <div className="center">
-                <Button color="success" onClick = {this.postData}>Post</Button>
-                </div> */}
+            
                 <div style={{margin:'10px'}}>
 
                     <Row>

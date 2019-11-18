@@ -44,7 +44,9 @@ router.post('/', (req, res, next) => {
       title : req.body.title,
       content : req.body.content,
       userId : req.body.userId,
-      userName : req.body.userName
+      userName : req.body.userName,
+      rating : 0,
+      ratingCount : 0
     });
     
     post.save().then(result => {

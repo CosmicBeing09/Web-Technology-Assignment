@@ -5,7 +5,9 @@ const postSchema = mongoose.Schema({
     title : String,
     content : String,
     userId : String,
-    userName : String
+    userName : String,
+    rating : Number,
+    ratingCount : Number
 });
 
 module.exports = mongoose.model('Post',postSchema);

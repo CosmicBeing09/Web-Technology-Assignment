@@ -63,6 +63,7 @@ class Home extends Component {
               {forEach.userName + " says: "}
             </CardHeader>
             <CardBody>
+              <div><p>Rating: {(forEach.rating).toFixed(2)}/5</p></div>
               <div> <h5> {forEach.title} </h5></div>
               <div dangerouslySetInnerHTML={ { __html: forEach.content.split(/(><)/)[0] } }></div>
             </CardBody>
